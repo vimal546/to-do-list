@@ -11,7 +11,6 @@ html{
     font-size: 28px;
 }
 body{
-    width: 100%;
     min-height: 100vh;
     font-family: myfont;
 }
@@ -23,7 +22,7 @@ body{
     height: 100vh;
     width: 30%;
     min-width: 500px;
-    border: 1px solid rgb(42, 42, 197);
+    border: 1px solid mediumblue;
     margin: auto;
     flex-grow: 1;
 }
@@ -37,14 +36,11 @@ header{
     align-items: center;
 }
 main{
-    width: 90%;
+    width: 100%;
     flex-grow: 1;
     justify-content: center;
-    margin-top: 1rem;
     align-items: center;
-    padding: 0.3rem;
     overflow-y: auto;
-    border: 1px solid rgb(202, 174, 174);
 }
 footer{
     width: 100%;
@@ -79,6 +75,7 @@ ul li::before{
     padding: 0.5rem 0 0.5rem 0.5rem;
     margin: 0.25rem;
     background-color: #eee;
+    border: 1px solid rgb(169, 142, 142);
 }
 /* .item:first-child{
     margin: 0;
@@ -94,9 +91,9 @@ ul li::before{
     cursor: pointer;
     margin-right: 0.5rem;
 }
-.item input[type="checkbox"]:focus + lable {
+/* .item input[type="checkbox"]:focus + lable {
     text-decoration: underline;
-}
+} */
 .item > label {
     font-size: 0.75rem;
     flex-grow: 1;
@@ -135,38 +132,34 @@ form{
     margin: 1rem;
     margin-right: 0.25rem;
     outline: none;
-    border: 2px solid rgb(132, 122, 122);
 }
 form button{
     height: 48px;
     margin-top: 1rem;
     min-width:48px;
-    border-radius: 0.30rem;
+    border-radius: 0.25rem;
     padding: 0.3rem;
     font-size: 1rem;
     background-color: aliceblue;
-    color: rgb(21, 21, 174);
+    color: mediumblue;
     cursor: pointer;
 }
 form button:hover{
-    background-color: rgb(73, 109, 205);
+    background-color: mediumblue;
     color: black;
 }
 .searchForm input[type="text"]{
     flex-grow: 1;
-    max-width: 80%;
+    max-width: 45rem;
     min-height: 48px;
     font-size: 1rem;
     padding: 0.25rem;
+    padding-left: 0.50rem;
     border-radius: 0.25rem;
     outline: none;
     align-items: center;
     justify-content: center;
     margin-top: -0.5rem;
-}
-.searchForm{
-    min-width: 17.5rem;
-    margin-left: 3.3rem;
 }
 .searchForm label{
     position: absolute;
