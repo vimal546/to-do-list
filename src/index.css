@@ -166,9 +166,15 @@ form button:hover{
     position: absolute;
     left: -999999px;
 }
-/* @media screen and (max-width:500px){
+@media screen and (max-width:500px){
     .App{
-        height: 30rem;
-        width: 40%;
+        min-width: 400px;
+        border: 1px solid mediumblue;
     }
-} */
+    .addForm input[type ='text']{
+        width: 10rem;
+    }
+    .searchForm input[type="text"]{
+        width: 12rem;
+    }
+}
