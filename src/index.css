@@ -159,7 +159,7 @@ form button:hover{
     padding: 0.25rem;
     padding-left: 0.50rem;
     border-radius: 0.25rem;
-    margin-left: 1.8rem;
+    margin-left: 50px;
     margin-bottom: 1rem;
     outline: none;
     align-items: center;
@@ -175,9 +175,9 @@ form button:hover{
         width: 40%;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:500px){
     .App{
-        height: 100vh;
+        height: 30rem;
         width: 30%;
     }
 }
