@@ -169,7 +169,11 @@ form button:hover{
 @media screen and (max-width:500px){
     .App{
         min-width: 400px;
+        height: 80vh;
         border: 1px solid mediumblue;
+        margin-top: 1rem;
+        bottom: 1rem;
+        position: sticky;
     }
     .addForm input[type ='text']{
         width: 10rem;
