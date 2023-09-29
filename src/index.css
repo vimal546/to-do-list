@@ -11,7 +11,7 @@ html{
     font-size: 28px;
 }
 body{
-    min-height: 100vh;
+    min-height: 100%;
     font-family: myfont;
 }
 .App{
@@ -145,17 +145,22 @@ form button{
     cursor: pointer;
 }
 form button:hover{
-    background-color: mediumblue;
+    background-color: rgb(74, 217, 38);
     color: black;
+}
+.searchForm{
+    width: 100%;
 }
 .searchForm input[type="text"]{
     flex-grow: 1;
-    max-width: 45rem;
+    max-width: 14rem;
     min-height: 48px;
     font-size: 1rem;
     padding: 0.25rem;
     padding-left: 0.50rem;
     border-radius: 0.25rem;
+    margin-left: 1.8rem;
+    margin-bottom: 1rem;
     outline: none;
     align-items: center;
     justify-content: center;
