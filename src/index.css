@@ -126,6 +126,7 @@ form{
 .addForm input[type ='text']{
     flex-grow: 1;
     font-size: 1rem;
+    width: 13rem;
     border-radius: 0.25rem;
     margin: 1rem 0.25rem;
     padding: 0.25rem;
