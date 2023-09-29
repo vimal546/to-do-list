@@ -170,3 +170,14 @@ form button:hover{
     position: absolute;
     left: -999999px;
 }
+@media screen and (max-width:1200px){
+    .App{
+        width: 40%;
+    }
+}
+@media screen and (max-width:300px){
+    .App{
+        height: 100vh;
+        width: 30%;
+    }
+}
